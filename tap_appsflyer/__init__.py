@@ -568,7 +568,7 @@ def sync_in_app_events():
 
 STREAMS = [
     Stream("installs", sync_installs),
-    Stream("in_app_events", sync_in_app_events)
+#     Stream("in_app_events", sync_in_app_events)
 ]
 
 
